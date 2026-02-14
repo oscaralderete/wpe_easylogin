@@ -1,0 +1,6 @@
+wpe_easylogin.settings:
+  title: 'Easy Login'
+  description: 'Configure Easy Login credentials (only for Localhost)'
+  parent: system.admin_config_system
+  route_name: wpe_easylogin.settings
+  weight: 100

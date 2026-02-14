@@ -1,0 +1,14 @@
+<?php
+
+function wpe_easylogin_page_attachments(array &$attachments)
+{
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  if ($route_name === 'user.login') {
+    $config = \Drupal::config('wpe_easylogin.settings');
+    $attachments['#attached']['library'][] = 'wpe_easylogin/wpe_easylogin';
+    $attachments['#attached']['drupalSettings']['wpe_easylogin'] = [
+      'username' => $config->get('username'),
+      'password' => $config->get('password'),
+    ];
+  }
+}

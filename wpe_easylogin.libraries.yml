@@ -1,0 +1,7 @@
+wpe_easylogin:
+  js:
+    js/wpe_easylogin.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/drupalSettings

@@ -1,0 +1,7 @@
+wpe_easylogin.settings:
+  path: '/admin/config/system/wpe_easylogin'
+  defaults:
+    _form: '\Drupal\wpe_easylogin\Form\WPE_EasyLoginSettingsForm'
+    _title: 'Easy Login Settings'
+  requirements:
+    _permission: 'administer site configuration'

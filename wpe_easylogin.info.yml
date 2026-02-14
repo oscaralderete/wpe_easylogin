@@ -1,0 +1,5 @@
+name: Easy Login by WPE (only for Localhost)
+type: module
+description: Adds an Easy Login button to the login page with configurable credentials.
+core_version_requirement: ^11
+package: Custom
