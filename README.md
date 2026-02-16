@@ -65,4 +65,4 @@ drush en wpe_easylogin
 
 (In Spanish only)
 
-...
+[![Watch the video](https://img.youtube.com/vi/MOKdZlG5D5Q/0.jpg)](https://youtu.be/MOKdZlG5D5Q)
